@@ -346,78 +346,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _this.changeDetectorRef = changeDetectorRef;
         _this._snackBar = _snackBar;
         _this.entityApi = 'users';
-        _this.items = [{
-          name: 'Apuesta',
-          icon: 'business',
-          children: [{
-            state: 'betalerts',
-            name: 'Apuestas alertas',
-            icon: 'fiber_manual_record',
-            expandable: false,
-            level: 1,
-            checks: true
-          }, {
-            state: 'bet',
-            name: 'Apuesta',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'bet2',
-            name: 'Apuesta-PRUEBA',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'bets',
-            name: 'Buscador',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'forbidden',
-            name: 'Numero Prohibido',
-            icon: 'fiber_manual_record'
-          }]
-        }, {
-          name: 'Recursos Humanos',
-          icon: 'group',
-          children: [{
-            state: 'employee',
-            name: 'Empleado',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'lottery',
-            name: 'Loterias',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'employeealerts',
-            name: 'Empleados Alerta ',
-            icon: 'fiber_manual_record'
-          }]
-        }, {
-          name: 'Finanzas',
-          icon: 'attach_money',
-          children: [{
-            state: 'sales',
-            name: 'Ventas',
-            icon: 'fiber_manual_record'
-          }]
-        }, {
-          name: 'Análisis',
-          icon: 'poll',
-          children: [{
-            state: 'employeesWork',
-            name: 'Digitación',
-            icon: 'fiber_manual_record'
-          }]
-        }, {
-          name: 'Seguridad',
-          icon: 'verified_user',
-          children: [{
-            state: 'user',
-            name: 'Usuario',
-            icon: 'fiber_manual_record'
-          }, {
-            state: 'users',
-            name: 'Usuarios',
-            icon: 'fiber_manual_record'
-          }]
-        }];
+        _this.items = [];
 
         _this._transformer = function (node, level) {
           return {
